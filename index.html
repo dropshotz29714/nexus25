@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="teal">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEXUS | Minuka Yapa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="fx">
+<div id="power"><div><h1 class="logo">NEXUS</h1><p>[ PRESS ANY KEY OR CLICK<br>TO POWER ON ]</p></div></div>
+
+<div id="crt">
+  <div id="boot"></div>
+  <div id="desk"><canvas id="bg" width="160" height="100"></canvas>
+  <div id="hud"><div id="hclk" class="glow">00:00:00</div><div id="hdt"></div><hr><div>USER <b class="glow">MINUKA YAPA</b></div><div>SCHOOL <b>DHARMARAJA COLLEGE</b></div><div>CITY <b>KANDY</b></div><hr><div class="hb">CPU<i><u id="cpu"></u></i></div><div class="hb">RAM<i><u id="ram"></u></i></div><div class="hb">BASS<i><u id="bs"></u></i></div></div><div id="icons"></div><div id="wins"></div></div>
+  <div id="bar" class="bev">
+    <button id="start" class="bev"><img id="sicon" alt="">START</button>
+    <div id="tasks"></div>
+    <div id="tray" class="sunk"><button id="fs" title="Fullscreen" aria-label="Fullscreen">[ ]</button><button id="vol" title="Sound on/off" aria-label="Toggle sound">&#9835;</button><span id="clk">00:00</span></div>
+  </div>
+  <div id="menu" class="bev"><div class="side">NEXUS</div><ul id="mlist"></ul></div>
+</div>
+<div class="fxl scan"></div><div class="fxl vig"></div><div class="fxl roll"></div><div class="fxl"><canvas id="noise" width="96" height="54"></canvas></div>
+<canvas id="mx"></canvas>
+<canvas id="ss" style="position:fixed;inset:0;z-index:160;display:none"></canvas><canvas id="trail" class="fxl" style="z-index:101"></canvas><div id="ctx" class="bev"></div>
+<div id="bsod"></div>
+<div id="offs"><div>It is now safe to turn off<br>your computer.<br><br><small>(click to power on)</small></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
